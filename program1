@@ -1,0 +1,17 @@
+//electric circuit program
+#include<stdio.h>
+int main()
+{
+int s;
+printf("ELECTRIC CIRCUIT STIMULATION");
+printf("SWITCH is on if the number is 1 or SWITCH is off if number if 0");
+printf("else SWITCH is not operated");
+scanf("%d",&s);
+if(s==1)
+printf("SWITCH is on");
+else if(s==0)
+printf("SWITCH is off");
+else 
+printf("SWITCH is not operated,check the number");
+return 0;
+}
